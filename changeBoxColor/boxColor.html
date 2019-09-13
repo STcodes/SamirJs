@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>  
+        <title>Box Color</title>
+
+        <link rel="stylesheet" href="box.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/box.css">
+    </head>
+<body>
+    <div class="container mt-5">
+        <div class="row d-flex justify-content-center flex-column">
+            <div class="col-6 align-self-center">
+
+                <h1> Select a color for Box : </h1>
+                <select onchange="ChangeBoxColor(this)">
+                    <option value="pink">Pink</option>
+                    <option value="blue">Blue</option>
+                    <option value="red">Red</option>
+                    <option value="black"> Black</option>
+                    <option value="purple">Purple</option>
+                </select>
+                
+                <hr>
+                <div id="box" ></div>
+            </div>
+        </div>
+        
+        <hr>
+        <button type="button" class="btn btn-info btn-lg btn-block" onclick="window.location.href='../index.html'">HOME PAGE</button>
+        
+    </div>
+
+</body>
+
+    <script src="js/boxx.js"></script>
+</html>

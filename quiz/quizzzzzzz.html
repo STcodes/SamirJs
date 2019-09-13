@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Quiz!</title>
+    <link href ="quizzstyle.css" rel ="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src = "main.js"></script>
+
+</head>
+
+
+<body>
+    <h1>Quiz Time!</h1>
+
+
+    <form id = "quiz" name = "quiz">
+
+
+    <p class = "questions">Qfare sistemi perdor APPLE?</p>
+    <input id = "textbox" type = "text" name = "question1">
+
+    <p class = "questions">Qfare do te thot HTML?</p>
+    <input type = "radio" id = "ans" name = "question2" value = "hyper text markup language"> hyper text markup language<br>
+    <input type = "radio" id = "ans" name = "question2" value = "hyper text makeup language"> hyper text makeup language<br>
+
+    <p class = "questions">Kur u shpall pavarsia e Kosoves?</p>
+
+    <input type = "radio" id = "ans" name = "question3" value = "2008"> 2008<br>
+    <input type = "radio" id = "ans" name = "question3" value = "2007"> 2007<br>
+
+
+    <input id = "buttonn" type = "button" value = "I'm finished!" onclick = "check();">
+
+
+    </form>
+
+    <div id = "resultBox">
+    <p id = "correctAnswers"></p>
+    <p id = "message"></p>
+    <img id = "picture">
+    <br>
+    </div>
+
+        <button type="button" class="btn btn-info btn-lg btn-block" onclick="window.location.href='../index.html'">HOME PAGE</button>
+
+
+</body>
+
+</html>
+
